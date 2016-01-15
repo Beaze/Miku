@@ -19,7 +19,7 @@
 
 - (instancetype)init
 {
-    if (self = [super initWithFrame:NSMakeRect(500, 50, 200, 300)]) {
+    if (self = [super initWithFrame:NSMakeRect(500 / 2, 50 / 2, 200 / 2, 300 / 2)]) {
         
         self.hidden = YES;
         
